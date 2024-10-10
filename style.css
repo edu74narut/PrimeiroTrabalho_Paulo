@@ -1,0 +1,61 @@
+:root {
+  --header-bg:#F1F1F1;
+  --article-bg:white;
+  --border-color:#ffbeca;
+  --sidebar-text-color:black;
+  --article-text-color:black;
+  --article-heading-color:#929292;
+  --nav-link-color: #ff8191;
+  --darker-border-color:#87a389;
+  --heading-color: #ff8191;
+}
+
+
+@font-face {
+    font-family: cafesweet;
+    src: url('/fonts/16ptpixels/CafeSweet.ttf');
+}
+@font-face {
+    font-family: diegovainilla;
+    src: url('/fonts/16ptpixels/DiegoVainilla.otf');
+}
+@font-face {
+  font-family: peachsundress;
+  src: url('/fonts/peachsundress.ttf');
+}
+@font-face {
+  font-family: typogarden;
+  src: url('/fonts/typogarden-demo.ttf');
+}
+
+body {
+  font-size:16px;
+  font-family: cafesweet;
+}
+
+
+.logo {
+height: 50px;
+width: 50px;
+}
+
+nav {
+  height:auto;
+  margin-bottom:10px;
+  background-color: #ffeff2;
+  font-size: 21px;
+  border:2px solid var(--border-color);
+  border-left:none;
+  border-right:none;
+  font-family: cafesweet;
+}
+
+.navicon {
+height: 40px;
+width: 40px;
+}
+
+.logo_footer {
+height: 140px;
+width: 140px;
+}

@@ -1,0 +1,12 @@
+Cores
+
+tons de rosa
+
+.color1 { #ffbeca };
+.color2 { #ffced8 };
+.color3 { #ffdee5 };
+.color4 { #ffeff2 };
+
+branco 
+
+.color5 { #ffffff };

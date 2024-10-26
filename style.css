@@ -1,5 +1,5 @@
 :root {
-  --header-bg: #F1F1F1;
+  --header-bg: #f1f1f1;
   --article-bg: white;
   --border-color: #ffbeca;
   --sidebar-text-color: black;
@@ -12,19 +12,19 @@
 
 @font-face {
   font-family: cafesweet;
-  src: url('/fonts/16ptpixels/CafeSweet.ttf');
+  src: url("/fonts/16ptpixels/CafeSweet.ttf");
 }
 @font-face {
   font-family: diegovainilla;
-  src: url('/fonts/16ptpixels/DiegoVainilla.otf');
+  src: url("/fonts/16ptpixels/DiegoVainilla.otf");
 }
 @font-face {
   font-family: peachsundress;
-  src: url('/fonts/peachsundress.ttf');
+  src: url("/fonts/peachsundress.ttf");
 }
 @font-face {
   font-family: typogarden;
-  src: url('/fonts/typogarden-demo.ttf');
+  src: url("/fonts/typogarden-demo.ttf");
 }
 
 html {
@@ -51,10 +51,10 @@ body {
 }
 
 nav {
-  position: fixed; 
-  top: 0; 
-  width: 100%; 
-  z-index: 1000; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   margin-bottom: 10px;
   background-color: #ffeff2;
   font-size: 21px;
@@ -69,20 +69,20 @@ nav {
   border-style: solid;
   border-color: var(--border-color);
   background-color: white;
-  width: 40%; 
-  max-width: 160px; 
+  width: 40%;
+  max-width: 160px;
   height: 380px;
   padding: 2px;
   overflow: auto;
   text-align: center;
-  line-height: 1.5; 
+  line-height: 1.5;
   border-radius: 9px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .div2 {
   z-index: 4;
-  position: relative; 
+  position: relative;
   background-size: 80%;
   background-repeat: repeat-x;
   height: 20px;
@@ -105,7 +105,7 @@ nav {
   width: 140px;
   height: 25px;
   display: inline-block;
-  margin: 2px 0; 
+  margin: 2px 0;
   padding-top: 1px;
   text-align: center;
   transition: all 200ms;
@@ -116,79 +116,109 @@ nav {
   margin-top: 5px;
 }
 
-  
-  .content-box {
-            border-width: 1px;
-            border-style: solid;
-            border-color: black;
-             
-            padding: 2px;
-            overflow: auto;
-            text-align: center;
-            border-radius: 9px;
-            margin-bottom: 20px;
-            position: relative; 
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-        }
+.content-box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
 
+  padding: 2px;
+  overflow: auto;
+  text-align: center;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-        
-        #third {
-            border-width: 1px;
-            border-style: solid;
-            border-color: black;
-            background-color: white; 
-            width: 168px;
-            height: 290px;
-            position: absolute;
-            padding: 2px;
-            overflow: auto;
-            text-align: center;
-            z-index: 2;
-            left: 530px; 
-            top: 185px; 
-            border-radius: 9px;
-        }
+#third {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  width: 168px;
+  height: 290px;
+  position: absolute;
+  padding: 2px;
+  overflow: auto;
+  text-align: center;
+  z-index: 2;
+  left: 530px;
+  top: 185px;
+  border-radius: 9px;
+}
 
-       
-        .div4 {
-            z-index: 4;
-            position: absolute;
-            background-size: 80%;
-            background-repeat: repeat-x;
-            height: 40px;
-            top: -2px;
-            left: -2px;
-            width: 100%;
-        }
+.div4 {
+  z-index: 4;
+  position: absolute;
+  background-size: 80%;
+  background-repeat: repeat-x;
+  height: 40px;
+  top: -2px;
+  left: -2px;
+  width: 100%;
+}
 
-      
+/* Estilos do container principal */
+.container-custom {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-width: 7px;
+  border-style: solid;
+}
 
-        /* Estilos do container principal */
-        .container-custom {
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-width:7px;
-            border-style:solid;
-        }
+.tamImagem {
+  width: 80px;
+  height: 90px;
+}
 
-        .titleSection{
-         width: 120px;
-         height: 90px;
-        }
+h2 {
+  color: #ff66b3;
+  font-family: "peachsundress", cursive;
+}
 
-        h2 {
-            color: #ff66b3; 
-            font-family: 'peachsundress', cursive;
-        }
-
-        p {
-            color: #555;
-            font-family: 'Comic Sans MS', cursive;
-        }
-
+p {
+  color: #555;
+  font-family: "Comic Sans MS", cursive;
+}
 
 .logo_footer {
-width: 230px;
-height: 120px;
-} 
+  width: 230px;
+  height: 120px;
+}
+
+.txt_p1 {
+  font-size: 35px;
+}
+
+.bowConfig {
+  width: 240px;
+  height: 150px;
+}
+
+.titleSection {
+  width: 360px;
+  height: 100px;
+}
+
+.title {
+  width: 1000px;
+  height: 200px;
+}
+
+.card-img-top {
+  width: 420px;
+  height: 220px;
+}
+
+img {
+  width: 800px;
+  height: 650px;
+  border-radius: 3%;
+}
+
+@media only screen and (max-width: 764px) {
+  .title {
+    width: 400px;
+    height: 200px;
+  }
+}

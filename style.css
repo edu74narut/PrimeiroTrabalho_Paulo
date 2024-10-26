@@ -186,7 +186,7 @@ p {
   height: 120px;
 }
 
-.txt_p1 {
+#txt_p1 {
   font-size: 35px;
 }
 
@@ -210,10 +210,31 @@ p {
   height: 220px;
 }
 
-img {
+/*img {
   width: 800px;
   height: 650px;
+}*/
+
+.carrosel_fig {
+  width: 1180px;
+  height: 600px;
   border-radius: 3%;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.txt_p2 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.txt_p3 {
+  margin-top: 40px;
+}
+
+.preco {
+  font-size: 30px;
+  color: rgb(64, 218, 29);
+  font-weight: bold; 
 }
 
 @media only screen and (max-width: 764px) {

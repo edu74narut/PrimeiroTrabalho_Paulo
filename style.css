@@ -237,9 +237,53 @@ p {
   font-weight: bold; 
 }
 
-@media only screen and (max-width: 764px) {
+#Nini{
+  height: 425px;
+  width: 250px;
+  position: absolute;
+  top: 500px;
+  left: -60px;
+  margin-left: 2cm;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5%;
+}
+
+#Eduuu{
+  height: 425px;
+  width: 250px;
+  position: absolute;
+  top: 1190px;
+  left: -60px;
+  margin-left: 2cm;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5%;
+}
+
+#Rafar{
+  height: 425px;
+  width: 250px;
+  position: absolute;
+  top: 2300px;
+  left: -60px;
+  margin-left: 2cm;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5%;
+}
+
+@media only screen and (max-width: 900px) {
   .title {
     width: 400px;
     height: 200px;
+  }
+
+  #Eduuu{
+    display: none;
+  }
+  #Rafar{
+    display: none;
+  }
+
+  #Nini{
+    display: none;
   }
 }
